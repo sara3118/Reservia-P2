@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+* {
+  box-sizing: border-box;
+}
+
+body {
+  
+  padding: 20px;
+  font-family: Arial;
+}
+
+/* Center website */
+.main {
+  background-color: #f1f1f1;
+  border-radius: 3%;
+  max-width: 1000px;
+  margin: auto;
+}
+
+h2 {
+  font-size: 20px;
+  word-break: break-all;
+}
+
+.row {
+  margin: 8px -16px;
+}
+
+/* Add padding BETWEEN each column */
+.row,
+.row > .column {
+  padding: 20px;
+ 
+}
+
+/* Create three equal columns that floats next to each other */
+.column {
+  float: left;
+  width: 33%;
+}
+
+/* Clear floats after rows */ 
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Content */
+.content {
+  background-color: white;
+  padding: 10px;
+  border-radius: 20px;
+}
+img{
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px ;
+}
+
+/* Responsive layout - makes a two column-layout instead of four columns */
+@media screen and (max-width: 900px) {
+  .column {
+    width: 50%;
+  }
+}
+
+/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .column {
+    width: 100%;
+  }
+}
+</style>
+</head>
+<body>
+<!--PPRTOFOLIO-->
+ <div id="myBtnContainer">
+    <button class="btn active" onclick="filterSelection('eco')"> Economique</button>
+    <button class="btn" onclick="filterSelection('family')"> Famille</button>
+    <button class="btn" onclick="filterSelection('romantic')"> Romantique</button>
+    <button class="btn" onclick="filterSelection('animal')"> Animaux autorisés</button>
+  </div>
+  
+  <!-- MAIN CENTER WEBSITE -->
+  <div class="main">
+      <h2>Hébergement à Marseille</h2>
+      <!--PORTOFLIO-->
+    <div class="row">
+      <div class="column">
+        <div class="content">
+        <img src="assets/img/hebergements/4_small/auberge cannebiere.jpg" alt="auberge cannebiere" style="width:100%">
+        <h4>Auberge à la Cannebiere</h4>
+        <p>Nuit à partir de <span class="prix">25€</span></p>
+      </div>
+    </div>
+    <div class="column">
+      <div class="content">
+        <img src="assets/img/hebergements/4_small/hotel port.jpg" alt="hotel du port" style="width:100%">
+        <h4>Hôtel du port</h4>
+        <p>Nuit à partir de <span class="prix">52€</span></p>
+      </div>
+    </div>
+    <div class="column">
+      <div class="content">
+        <img src="assets/img/hebergements/4_small/hotel mouette.jpg" alt="hotel les mouettes" style="width:100%">
+        <h4>Hôtel Les mouettes</h4>
+        <p>Nuit à partir de <span class="prix">76€</span></p>
+      </div>
+    </div>
+  
+    <div class="column">
+      <div class="content">
+        <img src="assets/img/hebergements/4_small/hotel mer.jpg" alt="hotel de la mer" style="width:100%">
+        <h4>Hôtel de la mer</h4>
+        <p>Nuit à partir de <span class="prix">46€</span></p>
+      </div>
+    </div>
+    <div class="column">
+      <div class="content">
+        <img src="assets/img/hebergements/4_small/auberge panier.jpg" alt="auberge le panier" style="width:100%">
+        <h4>Auberge le Panier</h4>
+        <p>Nuit à partir de <span class="prix">23€</span></p>
+      </div>
+    </div>
+    <div class="column">
+      <div class="content">
+        <img src="assets/img/hebergements/4_small/hotel amina.jpg" alt="hotel chez amina" style="width:100%">
+        <h4>Hôtel chez Amina</h4>
+        <p>Nuit à partir de <span class="prix">96€</span></p>
+      </div>
+    </div>
+</div>
+  
+  <!-- END GRID -->

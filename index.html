@@ -1,0 +1,373 @@
+<!DOCTYPE html>
+<html lang="fr">
+    <head>
+        <meta charset="utf-8">
+        <meta content="width=device-width, initial-scale=1.0" name="viewport">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link href="assets/css/style.css" rel="stylesheet">
+        <script src="https://kit.fontawesome.com/6aac548d6.js" crossorigin="anonymous"></script>
+        <link href="/fontawesome/css/all.css" rel="stylesheet">
+          <title>Reservia- Index</title>
+          <link rel="shortcut icon" type="image/x-icon" herf="assets/img/reservia_carre.png"/>
+        <meta name="descriptison" content="Un hébergement pour vos vacances. Activités,Hôtel,Reservia vous propos un large choix de presentaions par lieu et thématique." >
+        <meta content="" name="keywords">
+        <link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <div id="bloc_page">
+            <header class="header">
+                <nav id="conteneur_logo">
+                    <div id="titre_principal">
+                        <div id="logo">
+                            <img src="assets/img/logo/Reservia@3x.png" alt="logo de Reservia"/>
+                        </div>
+                    </div>
+                    
+                   
+                        <a class="MainHeaderNavBarLink HostingLink" href="#Hosting">Hébergements</a>
+                        <a class="MainHeaderNavBarLink ActivitésLink" href="#Activites">Activités</a>
+                        <a class="MainHeaderSignUp" href="#">S'inscrire</a>
+                    </nav>
+                </nav>
+            </header>
+            <div id="formulaire">
+                <form method="POST" action="traitement.php">
+                    <fildset>
+                        <legend><h3>Trouver votre hébergement pour des vacances de rêves</h3>
+                        </legend>
+                        <p>En plein centre ville ou en pleine nature</p>
+                        <div class="map">
+                            <i class="fas fa-map-marker-alt"></i>
+                        </div>
+                        <label for="lieu"></label>
+                        <input type="text" name="lieu" id="lieu" maxlength="20" placeholder="Marseille, France" autofocus required> <!--Zone de saisie-->
+                        <span class="bouton_rechercher">
+                            <a href="#" class="bouton_recherche">Rechercher</a>
+                        </span>
+                        <a href="#" class="bouton_recherche_loupe"><i class="fas fa-search"</i></a>
+                            <div id="filtre">
+                                <p>Filtres</p>
+                                <div id="myBtnContainer">
+                                    <button class="btn active" onclick="filterSelection('eco')"> Economique</button>
+                                    <button class="btn" onclick="filterSelection('family')"> Famille</button>
+                                    <button class="btn" onclick="filterSelection('romantic')"> Romantique</button>
+                                    <button class="btn" onclick="filterSelection('animal')"> Animaux autorisés</button>
+                                  </div>
+                                Plus de 500 logements sont disponibles dans cette ville
+                            </div>
+                    </fildset>
+                </form>
+            </div>
+            <!--POPULAIRES-->
+           
+  <div class="main-p">
+    <h2>Les plus populaires</h2>
+    <!--PORTOFLIO-->
+ 
+    <div class="column-p">
+      <div class="content-p">
+      <img src="assets/img/hebergements/4_small/hotel-le-soleil.jpg" alt="hotel le soleil">
+      <h4>Hôtel le soleil du matin</h4>
+      <p>Nuit à partir de <span class="prix">128€</span></p>
+    </div>
+  </div>
+  <div class="column-p">
+    <div class="content-p">
+      <img src="assets/img/hebergements/4_small/au coeur de l'eau.jpg" alt="au coeur de l'eau" style="width:100%,">
+      <h4>Au coeur de l'eau Chambres d'hôtes</h4>
+      <p>Nuit à partir de <span class="prix">71€</span></p>
+    </div>
+  </div>
+  <div class="column-p">
+    <div class="content-p">
+      <img src="assets/img/hebergements/4_small/hotel tout bleu.jpg" alt="hotel tout bleu" style="width:100%,">
+      <h4>Hôtel Tout bleu et Blanc</h4>
+      <p>Nuit à partir de <span class="prix">68€</span></p>
+    </div>
+  </div>
+
+
+ 
+  
+  </div>
+</div>
+
+<!-- END GRID -->
+                <!--Main Content HEBERGEMENT-->
+                
+                <style>
+                * {
+                  box-sizing: border-box;
+                }
+                
+                body {
+                  
+                  padding: 20px;
+                  font-family: Arial;
+                }
+                
+                /* Center website */
+                .main {
+                  background-color: #f1f1f1;
+                  border-radius: 3%;
+                  max-width: 1000px;
+                  margin: left;
+                }
+                
+                h2 {
+                  font-size: 20px;
+                  word-break: break-all;
+                }
+                
+                .row {
+                  margin: 8px -16px;
+                }
+                
+                /* Add padding BETWEEN each column */
+                .row,
+                .row > .column {
+                  padding: 20px;
+                 
+                }
+                
+                /* Create three equal columns that floats next to each other */
+                .column {
+                  float: left;
+                  width: 33%;
+                }
+                
+                /* Clear floats after rows */ 
+                .row:after {
+                  content: "";
+                  display: table;
+                  clear: both;
+                }
+                
+                /* Content */
+                .content {
+                  background-color: white;
+                  padding: 10px;
+                  border-radius: 20px;
+                }
+                img{
+                    border-top-left-radius: 20px;
+                    border-top-right-radius: 20px ;
+                }
+                
+                /* Responsive layout - makes a two column-layout instead of three columns */
+                @media screen and (max-width: 900px) {
+                  .column {
+                    width: 50%;
+                  }
+                }
+                
+                /* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+                @media screen and (max-width: 600px) {
+                  .column {
+                    width: 100%;
+                  }
+                }
+                .star {
+                    margin: 0 0.75rem 0.25rem 0.75rem;
+                }
+
+
+                  .star_check {
+                        color: #0065fc;
+                             }
+
+                  .star_uncheck{
+                            color: #d9d9d9;
+                            
+                    }
+                
+                </style>
+                </head>
+                <body>
+                <!--PPRTOFOLIO-->
+                
+                  
+                  <!-- MAIN CENTER WEBSITE -->
+                  <div class="main">
+                      <h2>Hébergement à Marseille</h2>
+                      <!--PORTOFLIO-->
+                    <div class="row">
+                      <div class="column">
+                        <div class="content">
+                        <img src="assets/img/hebergements/4_small/auberge cannebiere.jpg" alt="auberge cannebiere" style="width:100%">
+                        <h4>Auberge à la Cannebiere</h4>
+                        <p>Nuit à partir de <span class="prix">25€</span></p>
+                        
+                      </div>
+                    </div>
+                    <div class="column">
+                      <div class="content">
+                        <img src="assets/img/hebergements/4_small/hotel port.jpg" alt="hotel du port" style="width:100%">
+                        <h4>Hôtel du port</h4>
+                        <p>Nuit à partir de <span class="prix">52€</span></p>
+                      </div>
+                    </div>
+                    <div class="column">
+                      <div class="content">
+                        <img src="assets/img/hebergements/4_small/hotel mouette.jpg" alt="hotel les mouettes" style="width:100%">
+                        <h4>Hôtel Les mouettes</h4>
+                        <p>Nuit à partir de <span class="prix">76€</span></p>
+                      </div>
+                    </div>
+                  
+                    <div class="column">
+                      <div class="content">
+                        <img src="assets/img/hebergements/4_small/hotel mer.jpg" alt="hotel de la mer" style="width:100%">
+                        <h4>Hôtel de la mer</h4>
+                        <p>Nuit à partir de <span class="prix">46€</span></p>
+                      </div>
+                    </div>
+                    <div class="column">
+                      <div class="content">
+                        <img src="assets/img/hebergements/4_small/auberge panier.jpg" alt="auberge le panier" style="width:100%">
+                        <h4>Auberge le Panier</h4>
+                        <p>Nuit à partir de <span class="prix">23€</span></p>
+                      </div>
+                    </div>
+                    <div class="column">
+                      <div class="content">
+                        <img src="assets/img/hebergements/4_small/hotel amina.jpg" alt="hotel chez amina" style="width:100%">
+                        <h4>Hôtel chez Amina</h4>
+                        <p>Nuit à partir de <span class="prix">96€</span></p>
+                      </div>
+                    </div>
+                </div>
+                  
+                  <!-- END GRID -->
+            <!--ACTIVITES-->
+            <div id="activites_marseille">
+                <h2 id="titre_activite">Activités à Marseille</h2>
+                <div class="activite_tableau">
+                    <a href="#Activites">
+                    <div class="grande_section">
+                        <p id="activite_vieuxport"></p>
+                        <div class="activite_description">
+                            <img
+                            src="assets/img/activites/4_small/reno-laithienne_702w.jpg"
+                            srcset="assets/img/activites/4_small/reno-laithienne_702w.jpg 702w, 
+                            assets/img/activites/3_medium/reno-laithienne_1404w.jpg 1404w" 
+                           sizes="
+                            (min-width: 576px) and (max-width: 992px) 800px,
+                            (max-width: 576px) 400px,
+                            (min-width: 992px) 400px,
+                            100vw
+                            " />
+                            <h4>Vieux Port</h4>
+                        </div>
+                    </a>
+                    </div>
+                    <div class="activite_enfant">
+                        <div>
+                            <a href="#">
+                                <div class="petite_section">
+                                    <p id="activte_fort"></p>
+                                    <div class="activite_description">
+                                        <h4>Fort de Pomègues</h4>
+                                    </div>
+                                   
+                                </div>
+                            </a>
+                        </div>
+                        <div>
+                            <a href="#">
+                                <div class="petite_section">
+                                    <p id="activite_frioul"></p>
+                                    <div class="activite_description">
+                                        <h4>Iles de Frioul</h4>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                    <div>
+                        <a href="#">
+                            <div class="grande_section">
+                                <p id="activite_calanques"></p>
+                                <div class="activite_description">
+                                    <h4>Parc National des Calanques</h4>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="activite_enfant">
+                        <div>
+                            <a href="#">
+                                <div class="petite_section">
+                                    <p id="activite_dame"></p>
+                                    <div class="activite_description">
+                                        <h4>Notre-Dame-de-la-Garde</h4>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                        <div>
+                            <a href="#">
+                                <div class="petite_section">
+                                    <p id="activite_longchamp"></p>
+                                    <div class="activite_description">
+                                        <h4>Parc Longchamp</h4>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+            </div>
+        </div>
+    </div>
+    <!--FOOTER-->
+        
+	<br/><br/>
+	
+	<div class="container-fluid body" style=" background-color:#F2F2F2;">
+		 <div class="row">
+		    <div class="col-1"></div>
+		   <div class="col-3" id="a_propos">
+               <h4>A propos</h4>
+               <div id="liste_apropos">
+                   <ul>
+                       <a href="#">Fonctionnement du site</a></br>
+                       <a href="#">Conditions générales de vente</a></br>
+                       <a href="#">Données et confidentialité</a></br>
+
+                   </ul>
+			
+                </div>
+           </div>
+
+           <div class="col-1"></div>
+		   <div class="col-3" id="nos_hebergements">
+               <h4>Nos hébergements</h4>
+               <div id="liste_noshebergement">
+                   <ul>
+                       <a href="#">Charte qualité</a></br>
+                       <a href="#">Soumettre votre hôtel</a></br>
+                   </ul>
+			
+                </div>
+           </div>
+           <div class="col-1"></div>
+		   <div class="col-3" id="assistance">
+               <h4>Assistance</h4>
+               <div id="assistance_liste">
+                   <ul>
+                       <a href="#">Centre d'aide</a></br>
+                       <a href="#">Nous contacter</a></br>
+                   </ul>
+			
+                </div>
+           </div>
+          
+   
+		
+		
+		 		 <div class="col-12" style=" background-color:#F2F2F2;">© 2021 Reservia. All rights reserved. Privacy Policy</div>
+         </div>
+		</div>
+    </div>
+    </body>
+</html>   
