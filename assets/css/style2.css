@@ -9,21 +9,200 @@ body{
 }
 .MainHeaderNavBarLink{
     display: inline-flex;
-    width: 50%;
-    justify-content: center;
-    border-bottom: 3px solid var(--tertiary-color);
-    margin-top: 1rem;
-    padding-bottom: 1rem;
+  
+    margin-right: 100%;
+    border-top: 3px solid var(--tertiary-color);
+    margin: top 50px;
+    
 }
 .MainHeaderNavBarLink:hover{
     border-color: var(--primary-color);
     color: var(--primary-color);
 }
 .SearchFormIconWrapper{
-    background-color: var(--tertiary-color);
-    border-radius: 1rem 0 0 1rem;
+    background-color: var;
+    border: radius 20px;;
     padding:1rem 1rem;
     text-align: center;
     font-size: 1. 1rem;
     width: 2rem;
 }
+.btn{
+    background-color: white;
+    border-radius: 20px;
+    text-align: center;
+    padding: 10px 20px;
+    color: black;
+    font-weight: bold;
+}
+.bouton_recherche{
+    background-color: blue;
+    color:white;
+    padding: 10px 20px;
+    text-align: center;
+    border-bottom-right-radius: 15px;
+    border-top-right-radius: 15px;
+    display:inline-block;
+  
+}
+.bouton_recherche:hover{
+    color:black;
+}
+
+input{
+    border-bottom-left-radius: 15px;
+    border-top-left-radius: 15px;
+    text-align: center;
+    padding: 10px 20px;
+}
+.filters{
+    border:none;
+    background-color: none;
+    font-weight: bold;
+}
+.w3-container{
+    border-radius: 20px;
+}
+********
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  
+  padding: 20px;
+  font-family: Arial;
+}
+
+/* Center website */
+.main {
+  background-color: #f1f1f1;
+  border-radius: 3%;
+  max-width: 1000px;
+  margin: left;
+}
+
+h2 {
+  font-size: 20px;
+  word-break: break-all;
+  padding: 20px;
+}
+
+.row {
+  margin: 8px -16px;
+}
+
+/* Add padding BETWEEN each column */
+.row,
+.row > .column {
+  padding: 20px;
+ 
+}
+
+/* Create three equal columns that floats next to each other */
+.column {
+  float: left;
+  width: 33%;
+}
+
+/* Clear floats after rows */ 
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Content */
+.content {
+  background-color: white;
+  padding: 10px;
+  border-radius: 20px;
+}
+img{
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px ;
+}
+
+/* Responsive layout - makes a two column-layout instead of three columns */
+@media screen and (max-width: 900px) {
+  .column {
+    width: 50%;
+  }
+}
+
+/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .column {
+    width: 100%;
+  }
+}
+.star {
+    margin: 0 0.75rem 0.25rem 0.75rem;
+}
+
+
+  .star_check {
+        color: #0065fc;
+             }
+
+  .star_uncheck{
+            color: #d9d9d9;
+            
+    }
+
+/* activites */
+
+
+  
+  .row-2 {
+    margin: 8px -16px;
+  }
+  
+  /* Add padding BETWEEN each column */
+  .row,
+  .row-2 > .column {
+    padding: 20px;
+   
+  }
+  
+  /* Create four equal columns that floats next to each other */
+  .column-3,.column-4,.column-2 {
+    float: left;
+    width: 25%;
+  }
+  
+  /* Clear floats after rows */ 
+  .row-2:after {
+    content: "";
+   /* display: table;*/
+    /*clear: both;*/
+  }
+  
+  /* Content */
+  .content-2 {
+    background-color: white;
+    padding: 10px;
+    border-radius: 20px;
+  }
+  img{
+      border-top-left-radius: 20px;
+      border-top-right-radius: 20px ;
+  }
+ 
+  
+  /* Responsive layout - makes a two column-layout instead of three columns */
+  @media screen and (max-width: 900px) {
+    .column-2,.column-3,.column-4 {
+      width: 50%;
+    }
+  }
+  
+  /* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+  @media screen and (max-width: 600px) {
+    .column-2,.column-3,.column-4{
+      width: 100%;
+    }
+  }
+  
+  
