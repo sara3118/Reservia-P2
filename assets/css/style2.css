@@ -203,6 +203,11 @@ img{
     .column-2,.column-3,.column-4{
       width: 100%;
     }
+
+    .main-p{
+        margin-left: 100px;
+        max-width: 50%;
+    }
   }
   
   
