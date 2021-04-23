@@ -7,26 +7,26 @@ body{
     --tertiary-color:#F2F2F2;
     --tertiary-color-alt:#D9D9D9;
 }
+
 .MainHeaderNavBarLink{
     display: inline-flex;
-  
-    margin-right: 100%;
+    margin-left: 50%;
     border-top: 3px solid var(--tertiary-color);
-    margin: top 50px;
+    /*margin: top 50px;*/
     
 }
 .MainHeaderNavBarLink:hover{
     border-color: var(--primary-color);
     color: var(--primary-color);
 }
-.SearchFormIconWrapper{
+/*.SearchFormIconWrapper{
     background-color: var;
     border: radius 20px;;
     padding:1rem 1rem;
     text-align: center;
     font-size: 1. 1rem;
     width: 2rem;
-}
+}*/
 .btn{
     background-color: white;
     border-radius: 20px;
@@ -74,13 +74,29 @@ body {
   padding: 20px;
   font-family: Arial;
 }
-
+/*.main-p{
+    background-color:#f1f1f1;
+    border-radius: 3%;
+    max-width: 25%;
+    margin-left: auto;
+    height: 250pxs;
+}
+.column-p{
+    float: left;
+    width: 25%;
+}
+.content-p {
+    background-color: white;
+    padding: 10px;
+    border-radius: 20px;
+  }*/
+  
 /* Center website */
 .main {
   background-color: #f1f1f1;
   border-radius: 3%;
   max-width: 1000px;
-  margin: left;
+  
 }
 
 h2 {
@@ -204,10 +220,7 @@ img{
       width: 100%;
     }
 
-    .main-p{
-        margin-left: 100px;
-        max-width: 50%;
-    }
+ 
   }
   
   
