@@ -18,13 +18,22 @@
     </head>
     <body>
   
-          <header class="header">
+          <header class="header-link">
             <img class="logo" src="assets/img/logo/Reservia@3x.png" alt="Reservia logo">
-            <nav class="nav">
+            <!--nav class="nav">
               <a class="navlink" href="#" data-active="true">Hébergements</a>
               <a class="navlink" href="#" data-active="false">Activités</a>
             </nav>
-            <a class="signup" href="#">S'inscrire</a>
+            <a class="signup" href="#">S'inscrire</a-->
+              <nav class="nav-menu d-none d-lg-block">
+                <ul>
+                  <li><a href="#" data-active="true">Hébergements</a></li>
+                  <li><a href="#" data-active="true">Activités</a></li>
+                  <li><a href="#">S'inscrire</a></li>
+                </ul>
+              </nav><!-- .nav-menu -->
+
+
         </header>
 
         <main class="main">
@@ -82,8 +91,7 @@
                
                 <!--Main Content HEBERGEMENT-->
 
-                  <!--div class="main"-->
-                      
+                
                       <section class="Hebergement">
                         
                     <div class="row">
@@ -111,7 +119,7 @@
                       <img class="img-heb"src="assets/img/hebergements/4_small/hotel port.jpg" alt="Hôtel du Port" style="width:100%">
                       <h4>Hôtel du Port</h4>
                       </figure>
-                      <p>Nuit à partir de <span class="prix">25€</span></p>
+                      <p>Nuit à partir de <span class="prix">52€</span></p>
                       <div class="star">
                           <i class="fas fa-star star_check "></i>
                           <i class="fas fa-star star_check"></i>
@@ -121,27 +129,13 @@
                       </div>
                     
                   </article>
-                  <article class="article1">
-                    <figure class="fig-heb">
-                    <img class="img-heb"src="assets/img/hebergements/4_small/hotel mouette.jpg" alt="Hôtel Les Mouettes" style="width:100%">
-                    <h4>Hôtel Les Mouettes</h4>
-                    </figure>
-                    <p>Nuit à partir de <span class="prix">25€</span></p>
-                    <div class="star">
-                        <i class="fas fa-star star_check "></i>
-                        <i class="fas fa-star star_check"></i>
-                        <i class="fas fa-star star_check"></i>
-                        <i class="fas fa-star star_check"></i>
-                        <i class="fas fa-star star_uncheck "></i>
-                    </div>
                   
-                </article>
                 <article class="article1">
                   <figure class="fig-heb">
-                  <img class="img-heb" src="assets/img/hebergements/4_small/auberge cannebiere.jpg" alt="auberge cannebiere" style="width:100%">
-                  <h4>Auberge à la Cannebiere</h4>
+                  <img class="img-heb" src="assets/img/hebergements/4_small/hotel mouette.jpg" alt="hotel les mouettes" style="width:100%">
+                  <h4>Hôtel Les mouettes</h4>
                   </figure>
-                  <p>Nuit à partir de <span class="prix">25€</span></p>
+                  <p>Nuit à partir de <span class="prix">76€</span></p>
                   <div class="star">
                       <i class="fas fa-star star_check "></i>
                       <i class="fas fa-star star_check"></i>
@@ -150,12 +144,13 @@
                       <i class="fas fa-star star_uncheck "></i>
                   </div>
                 
-              </article> <article class="article1">
+              </article> 
+              <article class="article1">
                 <figure class="fig-heb">
-                <img class="img-heb" src="assets/img/hebergements/4_small/auberge cannebiere.jpg" alt="auberge cannebiere" style="width:100%">
-                <h4>Auberge à la Cannebiere</h4>
+                <img class="img-heb" src="assets/img/hebergements/4_small/hotel mer.jpg" alt="hotel de la mer" style="width:100%">
+                <h4>Hôtel de la mer</h4>
                 </figure>
-                <p>Nuit à partir de <span class="prix">25€</span></p>
+                <p>Nuit à partir de <span class="prix">46€</span></p>
                 <div class="star">
                     <i class="fas fa-star star_check "></i>
                     <i class="fas fa-star star_check"></i>
@@ -167,10 +162,10 @@
             </article>
             <article class="article1">
               <figure class="fig-heb">
-              <img class="img-heb" src="assets/img/hebergements/4_small/auberge cannebiere.jpg" alt="auberge cannebiere" style="width:100%">
-              <h4>Auberge à la Cannebiere</h4>
+              <img class="img-heb" src="assets/img/hebergements/4_small/auberge panier.jpg" alt="auberge panier" style="width:100%">
+              <h4>Auberge Le Panier</h4>
               </figure>
-              <p>Nuit à partir de <span class="prix">25€</span></p>
+              <p>Nuit à partir de <span class="prix">23€</span></p>
               <div class="star">
                   <i class="fas fa-star star_check "></i>
                   <i class="fas fa-star star_check"></i>
@@ -179,43 +174,49 @@
                   <i class="fas fa-star star_uncheck "></i>
               </div>
             
-          </article> <article class="article1">
-             <figure class="fig-heb">          
-            <img class="img-heb" src="assets/img/hebergements/4_small/auberge cannebiere.jpg" alt="auberge cannebiere" style="width:100%">
-            <h4>Auberge à la Cannebiere</h4>
-            </figure> 
-            <p>Nuit à partir de <span class="prix">25€</span></p>
-            <div class="star">
-                <i class="fas fa-star star_check "></i>
-                <i class="fas fa-star star_check"></i>
-                <i class="fas fa-star star_check"></i>
-                <i class="fas fa-star star_check"></i>
-                <i class="fas fa-star star_uncheck "></i>
-            </div>
-          
         </article>
+        <article class="article1">
+          <figure class="fig-heb">
+          <img class="img-heb" src="assets/img/hebergements/4_small/hotel amina.jpg" alt="hotel chez amina" style="width:100%">
+          <h4>Hôtel chez Amina</h4>
+          </figure>
+          <p>Nuit à partir de <span class="prix">96€</span></p>
+          <div class="star">
+              <i class="fas fa-star star_check "></i>
+              <i class="fas fa-star star_check"></i>
+              <i class="fas fa-star star_check"></i>
+              <i class="fas fa-star star_check"></i>
+              <i class="fas fa-star star_uncheck "></i>
+          </div>
+        
+      </article> 
               </div>
             </section>
             </br></br>
+            <!--POPULAR-->
             <aside class="popular">
-              <!--POPULAIRENEW-->
+              
               <div class="main-p">
                 <h2>Les plus populaires</h2>
-                
+                <article class="article1">
                 <div class="column-p">
                   <div class="content-p">
                   <img src="assets/img/hebergements/4_small/hotel-le-soleil.jpg" alt="hotel le soleil">
                   <h4>Hôtel le soleil du matin</h4>
+                </article>
                   <p>Nuit à partir de <span class="prix">128€</span></p>
                 </div>
               </div>
+              <article class="article1">
               <div class="column-p">
                 <div class="content-p">
                   <img src="assets/img/hebergements/4_small/au coeur de l'eau.jpg" alt="au coeur de l'eau" style="width:100%,">
                   <h4>Au coeur de l'eau Chambres d'hôtes</h4>
+                </article>
                   <p>Nuit à partir de <span class="prix">71€</span></p>
                 </div>
               </div>
+              
               <div class="column-p">
                 <div class="content-p">
                   <img src="assets/img/hebergements/4_small/hotel tout bleu.jpg" alt="hotel tout bleu" style="width:100%,">
