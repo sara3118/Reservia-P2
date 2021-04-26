@@ -1,0 +1,80 @@
+
+body{
+    font-family: "Raleway", sans-serif;
+    margin: 0px;
+}
+
+a{
+    text-decoration: none;
+    color:black;
+}
+.legende /*hotels & activites names*/
+{font-weight: bold;}
+
+figure /*all figures*/
+{
+    border-radius: 20px;
+    margin: 15px;
+    padding: 5px;
+}
+#pagecontainer /*common margin for header and main*/
+{width: 95%;
+margin:auto;}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.logo{
+    width: 100px;
+}
+#menu{
+    display: flex;
+    align-items: center;
+    font-size: 1.1em;
+    margin-right: 20px;
+}
+
+nav ul{
+    display: flex;
+}
+
+li{
+    list-style-type:none;
+}
+li a{
+    padding: 20px 50px 20px 50px;
+}
+
+nav a:hover{
+    border-top: 2px solid blue;
+    color: blue;
+    font-weight: bold;
+}
+
+.s'inscrire a {
+    font-weight:bold;
+    color:blue;
+    padding-left:50px;
+}
+
+#boxsearch{
+    display: flex;
+    height: 50px;
+}
+.fa-map-market-alt /*location icon*/{
+    background-color:#f2f2f2;
+    padding: 15px 15px 10px 20px;
+    border-radius: 15px 0px 0px 15px;
+footer{
+    display: flex;
+    justify-content: space-around;
+    background-color: #f2f2f2;
+    margin-top: 40px;
+    padding-bottom: 40px;
+    padding-top: 30px;
+}
