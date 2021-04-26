@@ -143,6 +143,177 @@ font-weight: bold;}
     border: 2px #f2f2f2 solid;
     margin-right: 10px;
 }
+
+/*sectionhebergement*/
+/*2bloc beside each other*/
+#sectionhebergement {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 30px;
+}
+
+.fa-star{
+    color: blue;
+    font-size: 0.8em;
+}
+
+.greystar{
+    color:#f2f2f2;
+}
+/*hotels bloc*/
+#hotels{
+    background-color: #f2f2f2;
+    border-radius: 20px;
+    margin-right: 10px;
+    padding: 20px 0px 30px 20px;
+}
+
+#hotels h2{
+    margin-left: 25px;
+}
+#afficher{
+    margin-left: 25px;
+    font-weight: bold;
+}
+/*cards*/
+#cards{
+    display: flex;
+    flex-wrap: wrap;
+    margin-right: 20px;
+    justify-content: space-around;
+}
+/*box size*/
+.boxcard{
+    width: 30%;
+    min-width: 200px;
+    margin-left: 15px;
+    margin-right: 15px;
+}
+.boxcard figure{
+    background-color: white;
+    min-width: 200px;
+    box-shadow: #c3c3c3 10px 10px 10px ;
+}
+
+.boxcard figure img{
+    width: 100%;
+    height: 140px;
+    object-fit: cover;
+    border-radius: 20px 20px 0px 0px;
+}
+.boxcard figcaption{
+    margin-left: 15px;
+}
+
+/*aside*/
+aside{
+    background-color: #f2f2f2;
+    border-radius: 20px;
+    margin-left: 20px;
+    padding-bottom: 20px
+    ;
+}
+/*title-icone*/
+#populaires{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 35px 0px 35px;
+}
+#populaires i {
+    font-size: 1.3em;
+}
+
+#cardspop{
+    margin: 0px 5px 20px 15px;
+}
+.boxpop {
+    display: flex;
+    height: 200px;
+    min-width: 320px;
+    margin-right: 15px;
+}
+.boxpop figure{
+    display: flex;
+    background-color: white;
+    box-shadow: #c3c3c3 10px 10px 10px;
+}
+.boxpop img{
+    width: 40%;
+    height: 100%;
+    -o-object-fit: cover;
+    border-radius: 20px 0px 0px 20px;
+}
+.boxpop figcaption{
+    margin-left: 15px;
+}
+
+/*sectionactivites*/
+#sectionactivites{
+    display: flex;
+    flex-direction: column;
+}
+#activites{
+    display: flex;
+}
+#activites figcaption
+{padding-left: 15px;}
+
+.boxactivite-A figure{
+    height: 550px;
+    box-shadow: #f2f2f2 10px 10px 10px;
+}
+.boxactivite-A{
+    width: 25%;
+}
+.boxactivite-A img{
+    width: 100px;
+    height: 500px;
+    object-fit: cover;
+    border-radius: 20px 20px 0px 0px;
+}
+.boxactivite-B{
+    width: 25%;
+}
+.activite1{
+    height: 310px;
+    box-shadow: #f2f2f2 10px 10px 10px;
+}
+.activite1 img{
+    width: 100%;
+    height: 260px;
+    object-fit: cover;
+    border-radius: 20px 20px 0px 0px;
+}
+.activite2{
+    height: 210px;
+    box-shadow: 10px 10px 10px #f2f2f2;
+}
+.activite2 img{
+    width: 100%;
+    height: 160px;
+    object-fit: cover;
+    border-radius: 20px 20px 0px 0px;
+}
+/*tablette & smartphone*/
+@media screen and (max-width: 1024px)
+{
+    /*menu in 2lines */
+    #menu{
+        flex-direction: column-reverse;
+        align-items: center;
+        margin-top: 20px;
+    }
+    nav a:hover{
+        border-top: hidden;
+        border-bottom: 2px solid blue;
+    }
+
+}
+    
+}
+
+
 footer{
     display: flex;
     justify-content: space-around;
