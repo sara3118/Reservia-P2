@@ -24,6 +24,7 @@ a {
     max-width: 1440px;
     margin-left: 100%;
     padding: 0 10rem;
+    padding-left: 150px;
   }
 .nav-menu ul {
     max-width: 1440px;
@@ -126,6 +127,7 @@ a {
     color: black;
     font-weight: bold;
 }
+
 .bouton_recherche{
     background-color: blue;
     color:white;
@@ -165,14 +167,14 @@ input{
   padding: 20px;
   font-family: Arial;
 }
-/*.main-p{
+.main-p{
     background-color:#f1f1f1;
     border-radius: 3%;
-    max-width: 25%;
-    margin-left: auto;
+    max-width: 100%;
+   margin-left: auto;
     height: 250pxs;
 }
-.column-p{
+/*.column-p{
     float: left;
     width: 25%;
 }
@@ -180,7 +182,7 @@ input{
     background-color: white;
     padding: 10px;
     border-radius: 20px;
-  }*/
+  }
 /*Section activity*/
   .activity {
     display: grid;
@@ -322,13 +324,58 @@ img{
       .fig-heb {
         margin: 0;
       }
+      /* Add padding BETWEEN each column */
+.row,
+.row > .column {
+  padding: 20px;
+ 
+}
 
-      /*POP*/
-      .popular {
+      /*POPULAIR*/
+     /* .popular {
         display: grid;
         row-gap: 2rem;
         align-items: start;
         grid-template-rows: auto repeat(3, 1fr);
+        margin-left: 100%;
+        padding-left: auto;
+      }*/
+      .row-2 {
+        background-color: #f2f2f2;
+        border-radius: 1.5rem;
+        padding: 2rem;
+        margin-left: 100%;
+      }
+
+      .article2 {
+        background-color: #fff;
+        margin-left: 100%;
+        padding: 0.375rem;
+        border-radius: 1.25rem;
+        box-shadow: 0 0 16px #0000002e;
+        transition-duration: 0.5s;
+        cursor: pointer;
+        box-sizing: border-box;
+        height: 100%;
+      }
+      
+
+      .img-pop{
+        height: 7rem;
+        object-fit: cover;
+        width: 100%;
+        max-width: 100%;
+        max-height: 100%;
+        border-radius: 1rem 1rem 0 0;
+      }
+      .fig-pop {
+        display: grid;
+        row-gap: 2rem;
+        object-fit: cover;
+        align-items: start;
+        grid-template-rows: auto repeat(3, 1fr);
+        margin-left: 100%;
+        padding-left: 100%;
       }
 
 /* activites */
@@ -365,9 +412,13 @@ img{
     padding: 10px;
     border-radius: 20px;
   }
-  img{
-      border-top-left-radius: 20px;
-      border-top-right-radius: 20px ;
+.activity_img{
+    height: 7rem;
+    object-fit: cover;
+    width: 100%;
+    max-width: 100%;
+    max-height: 100%;
+    border-radius: 1rem 1rem 0 0;
   }
  
   

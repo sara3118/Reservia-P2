@@ -27,8 +27,8 @@
             <a class="signup" href="#">S'inscrire</a-->
               <nav class="nav-menu d-none d-lg-block">
                 <ul>
-                  <li><a href="#" data-active="true">Hébergements</a></li>
-                  <li><a href="#" data-active="true">Activités</a></li>
+                  <li><a href="#sectionHebergement">Hébergements</a></li>
+                  <li><a href="#sectionActivites">Activités</a></li>
                   <li><a href="#">S'inscrire</a></li>
                 </ul>
               </nav><!-- .nav-menu -->
@@ -80,23 +80,16 @@
                 </form>
             </div>
         </div>      
-            <!--POPULAIRES-->
            
-  
-
-<!--END GRID -->
-                
-               
-                
-               
                 <!--Main Content HEBERGEMENT-->
 
                 
-                      <section class="Hebergement">
+                      <section class="Hebergement" id="sectionHebergement">
                         
                     <div class="row">
+                      <h2>Hébergement à Marseille</h2>
                       <div class="column">
-                        <h2>Hébergement à Marseille</h2>
+                        
                         </div>
                         <article class="article1">
                           <figure class="fig-heb">
@@ -191,125 +184,103 @@
         
       </article> 
               </div>
+              <aside><!-- 2 blocs: titre, div"cardspop"-->
+                <div id="populaires"> <!--bloc titre-->
+                  <h2>Les plus populaires</h2>
+                  <i class="fas fa-chart-line"></i>
+                </div>
+                  <div id="cardspop"><!-- 3 blocs composés d'un lien et d'une figure"image +legende"-->	
+                    <a href="#" class="boxpop">
+                      <figure>
+                        <img  class="img-pop" src="assets/img/hebergements/4_small/hotel-le-soleil.jpg" alt="Hôtel Le soleil du matin" />
+                        <figcaption>
+                        <p class="legende">Hôtel Le soleil du matin </p>
+                        <p>Nuit à partir de 128€ </p><br/>
+                        <p><i class="fas fa-star"></i>	
+                        <i class="fas fa-star"></i>	
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        </p>
+                        </figcaption>
+                      </figure>
+                    </a>
+                    <a href="#" class="boxpop">
+                      <figure>
+                        <img class="img-pop" src="assets/img/hebergements/4_small/au coeur de l'eau.jpg" alt=" Chambre d'hôtes-Au coeur de l'eau" />
+                        <figcaption > 
+                        <p class="legende">Au coeur de l'eau<br/> Chambres d'hôtes </p>
+                        <p>Nuit à partir de 71€ </p><br/>
+                        <p><i class="fas fa-star"></i>	
+                        <i class="fas fa-star"></i>	
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star greystar"></i></p>
+                        </figcaption>
+                      </figure>
+                    </a>
+                    <a href="#" class="boxpop">
+                      <figure>
+                        <img  class="img-pop" src="assets/img/hebergements/4_small/hotel tout bleu.jpg" alt="Hôtel tout bleu et blanc" />
+                        <figcaption>
+                        <p class="legende"> Hôtel Tout bleu et Blanc </p>
+                        <p>Nuit à partir de 68€</p><br/>
+                        <p><i class="fas fa-star"></i>	
+                        <i class="fas fa-star"></i>	
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star greystar"></i></p>
+                        </figcaption>
+                      </figure>
+                    </a>
+                  </div>
+              </aside>
             </section>
-            </br></br>
+            
             <!--POPULAR-->
-            <aside class="popular">
+
+            <!--aside class="popular">
               
               <div class="main-p">
-                <h2>Les plus populaires</h2>
+                <h3>Les plus populaires</h3>
                 <article class="article1">
                 <div class="column-p">
                   <div class="content-p">
-                  <img src="assets/img/hebergements/4_small/hotel-le-soleil.jpg" alt="hotel le soleil">
+                  <img class="img-pop" src="assets/img/hebergements/4_small/hotel-le-soleil.jpg" alt="hotel le soleil">
                   <h4>Hôtel le soleil du matin</h4>
-                </article>
                   <p>Nuit à partir de <span class="prix">128€</span></p>
-                </div>
-              </div>
-              <article class="article1">
-              <div class="column-p">
-                <div class="content-p">
-                  <img src="assets/img/hebergements/4_small/au coeur de l'eau.jpg" alt="au coeur de l'eau" style="width:100%,">
-                  <h4>Au coeur de l'eau Chambres d'hôtes</h4>
                 </article>
-                  <p>Nuit à partir de <span class="prix">71€</span></p>
+                 
                 </div>
               </div>
-              
-              <div class="column-p">
-                <div class="content-p">
-                  <img src="assets/img/hebergements/4_small/hotel tout bleu.jpg" alt="hotel tout bleu" style="width:100%,">
-                  <h4>Hôtel Tout bleu et Blanc</h4>
-                  <p>Nuit à partir de <span class="prix">68€</span></p>
+              <div class="main-p">
+                <article class="article1">
+                <div class="column-p">
+                  <div class="content-p">
+                  <img class="img-pop" src="assets/img/hebergements/4_small/hotel-le-soleil.jpg" alt="hotel le soleil">
+                  <h4>Hôtel le soleil du matin</h4>
+                  <p>Nuit à partir de <span class="prix">128€</span></p>
+                </article>
+                 
                 </div>
               </div>
-            
+              <div class="main-p">
+                <article class="article1">
+                <div class="column-p">
+                  <div class="content-p">
+                  <img class="img-pop" src="assets/img/hebergements/4_small/hotel-le-soleil.jpg" alt="hotel le soleil">
+                  <h4>Hôtel le soleil du matin</h4>
+                  <p>Nuit à partir de <span class="prix">128€</span></p>
+                </article>
+                 
+                </div>
               </div>
-            </div>
 
             </aside>
-                  <!-- END GRID -->
-            <!--ACTIVITES-->
-           
-            <!--div id="container-fluid-b1" >
-                
-                <div class="col-1"></div>
-                <div class="row"></div>
-                <div class="w3-container">
-                <h2 id="titre_activite">Activités à Marseille</h2>
-                
-                  <div class="w3-card-4" style="width: 20%;height: 300px;">
-                    <img src="assets/img/activites/4_small/vieux port.jpg" alt="Alps" style="width:100%; height: 250px;">
-                    <div class="w3-container w3-center">
-                      <p>Vieux Port</p>
-                    </div>
-                  </div>
-                </div>
-                <div class="w3-container">
-                  <h2>Photo Card</h2>
-                
-                  <div class="w3-card-4" style="width:20%;height: 100px;">
-                    <img src="assets/img/activites/4_small/fort de pomègues.jpg" alt="Alps" style="width:100% ;height: 70%;">
-                    <div class="w3-container w3-center">
-                      <p>The Italian / Austrian Alps</p>
-                    </div>
-                  </div> 
-                </div>
-                  </div>
-                </div>
-            </div-->
-
-              <!--div id="container-fluid-b1" >
-                      <h2>Activités à Marseille</h2>
-                      <div class="row-2">
-                        <div class="column-2">
-                          <div class="content-2">
-                          <img src="assets/img/activites/4_small/vieux port.jpg" alt="vieux port" style="width:90%">
-                          <h4>Vieux Port</h4>
-                          
-                        </div>
-                      </div>
-                      <div class="column-3">
-                        <div class="content">
-                          <img src="assets/img/activites/4_small/fort de pomègues.jpg" alt="fort de pomègues" style="width:90%">
-                          <h4>Fort de Pomègues</h4>
-                          
-                        </div>
-                      </div>
-                      <div class="column-4">
-                        <div class="content">
-                          <img src="assets/img/activites/4_small/iles du frioul.jpg" alt="iles du frioul" style="width:90%">
-                          <h4>îles du Frioul</h4>
-                          
-                        </div>
-                      </div>
-                    
-                      <div class="column-2">
-                        <div class="content">
-                          <img src="assets/img/activites/4_small/parc national.jpg" alt="parc national" style="width:90%">
-                          <h4>Parc National des Calanques</h4>
-                          
-                        </div>
-                      </div>
-                      <div class="column-3">
-                        <div class="content">
-                          <img src="assets/img/activites/4_small/notre dame.jpg" alt="notre dame" style="width:90%">
-                          <h4>Notre-Dame-de-la-Garde</h4>
-                          
-                        </div>
-                      </div>
-                      <div class="column-4">
-                        <div class="content">
-                          <img src="assets/img/activites/4_small/parc longchamp.jpg" alt="parc longchamp" style="width:90%">
-                          <h4>Parc Longchamp</h4>
-                         
-                        </div>
-                      </div>
-            </div></div>      </div-->
+                  
 
             <!-- Section activity -->
-        <section class="activity">
+        <section class="activity" id="sectionActivites">
           <h2 class="title_activity">Activités à Marseille</h2>
           <a class="activity_card card_1" href="#">
               <div class="activity_grid">
