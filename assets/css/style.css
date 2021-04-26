@@ -302,7 +302,16 @@ aside{
     object-fit: cover;
     border-radius: 20px 20px 0px 0px;
 }
-
+.boxactivite-A:hover{
+    transform: scale(1.03);
+}
+.activite1:hover{
+    transform: scale(1.03);
+}
+.activite2:hover{
+    transform: scale(1.03);
+}
+/*****/
 footer{
     display: flex;
     justify-content: space-around;
