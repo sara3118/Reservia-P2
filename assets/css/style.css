@@ -70,6 +70,79 @@ nav a:hover{
     background-color:#f2f2f2;
     padding: 15px 15px 10px 20px;
     border-radius: 15px 0px 0px 15px;
+}
+input{
+    border: 1px solid #f2f2f2;
+    width: 200px;
+    font-weight: bold;
+    color: black;
+    text-indent: 5px;
+}
+label/*serch button*/
+{background-color: blue;
+color: white;
+padding: 15px 15px 0px 15px;
+border-radius: 0px 15px 15px 0px;
+font-weight: bold;}
+
+.fa-search{visibility: hidden;}
+
+#filters{
+    display: flex;
+    margin-top: 20px;
+    flex-wrap: wrap;
+}
+.titre{margin: 5px 45px 0px 5px;}
+
+#boxfilters{
+    display: flex;
+    flex-wrap: wrap;
+}
+.filtre /*four buttons*/
+{
+    height: 50px;
+    display: flex;
+    align-items: center;
+    border-radius: 40px;
+    border:2px #f2f2f2 solid;
+    margin: 10px 40px 10px 00px;
+    padding-right: 35px;
+}
+
+.filtre i /*4 filter icon*/
+{
+    background-color: #deebff;
+    color: blue;
+    font-size: 1.3em;
+    border-radius: 27px;
+    padding:18px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 15px;
+    margin-right: 10px;
+}
+.filtre:hover{
+    color: white;
+    background-color: blue;
+}
+
+#info{
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+    margin-bottom: 25px;
+
+}
+
+.fa-info /*info icon*/
+{
+    color: blue;
+    border-radius: 30px;
+    padding: 4px 10px 5px 10px;
+    border: 2px #f2f2f2 solid;
+    margin-right: 10px;
+}
 footer{
     display: flex;
     justify-content: space-around;
