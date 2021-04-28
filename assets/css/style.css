@@ -312,6 +312,18 @@ aside{
 .activite2:hover{
     transform: scale(1.03);
 }
+.star {
+    margin: 0 0.75rem 0.25rem 0.75rem;
+}
+
+  .star_check {
+        color: #0065fc;
+             }
+
+  .star_uncheck{
+            color: #d9d9d9;
+            
+    }
 /*****/
 footer{
     display: flex;
@@ -322,18 +334,30 @@ footer{
     padding-top: 30px;
 }
 /*************************/
-/*tablette & smartphone*/
+/*tablette */
 @media screen and (max-width: 1024px)
 {
-    /*menu in 2lines */
+    /*menu in 2lines -inscrire link on top*/
     #menu{
         flex-direction: column-reverse;
         align-items: center;
-        margin-top: 20px;
+        margin-top: 10px;
     }
     nav a:hover{
         border-top: hidden;
         border-bottom: 2px solid blue;
+    }
+    #sectionhebergement{
+        flex-direction: column-reverse;
+    }
+    #hotels{
+        background-color: white;
+    }
+    #activites figcaption{
+        font-size: 10px;
+    }
+    footer{
+        font-size: 10px;
     }
 
 }
