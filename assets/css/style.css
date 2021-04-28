@@ -94,7 +94,7 @@ font-weight: bold;}
 }
 .titre{margin: 5px 45px 0px 5px;}
 
-#boxfilters{
+#boxfiltres{
     display: flex;
     flex-wrap:wrap;
 }
