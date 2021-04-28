@@ -66,7 +66,7 @@ nav a:hover{
     display: flex;
     height: 50px;
 }
-.fa-map-market-alt /*location icon*/{
+.fa-map-marker-alt/*location icon*/{
     background-color:#f2f2f2;
     padding: 15px 15px 10px 20px;
     border-radius: 15px 0px 0px 15px;
@@ -96,17 +96,17 @@ font-weight: bold;}
 
 #boxfilters{
     display: flex;
-    flex-wrap: wrap;
+    flex-wrap:wrap;
 }
 .filtre /*four buttons*/
 {
     height: 50px;
     display: flex;
-   /* align-items: center;*/
+    align-items: center;
     border-radius: 40px;
     border:2px #f2f2f2 solid;
     margin: 10px 40px 10px 00px;
-   /* padding-right: 35px;*/
+    padding-right: 35px;
     padding: relative;
 }
 
@@ -246,7 +246,7 @@ aside{
 .boxpop img{
     width: 40%;
     height: 100%;
-    -o-object-fit: cover;
+    object-fit: cover;
     border-radius: 20px 0px 0px 20px;
 }
 .boxpop figcaption{
