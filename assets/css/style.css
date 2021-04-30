@@ -364,4 +364,16 @@ footer{
     
 }
 
+/***smartphone*/
+@media screen and (min-width:320)and (max-width:767){
+    #pagecontainer{
+        width:98%;
+    }
+    div#pagecontainer{}
+    #menu{
+        align-items: flex-end;
+        width: 200px;
+    }
+}
+
 
