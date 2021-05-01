@@ -386,7 +386,7 @@ footer{
     #pagecontainer{
         width:98%;
     }
-    div#pagecontainer{}
+    
     #menu{
         align-items: flex-end;
         width: 200px;
@@ -413,6 +413,24 @@ footer{
         padding-right: 10px;
         font-size: 10px;
     }
+
+    aside{
+        border-radius: 0px;
+        margin-left: 0px;
+    }
+    #populaires{
+        padding-left: 25px;
+    }
+    #cardspop{
+        margin: auto;
+    }
+    .boxpop img{
+        min-width: 40%;
+    }
+    #hotels{
+        max-width: 100%;
+        padding: 15px 10px 0px 0px;
+    }    
 
     footer{
         flex-direction: column;
