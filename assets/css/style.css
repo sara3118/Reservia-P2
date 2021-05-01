@@ -430,7 +430,39 @@ footer{
     #hotels{
         max-width: 100%;
         padding: 15px 10px 0px 0px;
-    }    
+    }
+    .boxcard{
+        width: 100%;
+        margin-left: 0px;
+    }  
+    .boxcard figure{
+        width: 100%;
+        height: 200px;
+        font-size: 10px;
+    }
+    .boxcard figure img{
+        height: 110px;
+    }  
+/************************/
+    #sectionactivites h2{
+        margin-left: 30px;
+    }
+    #activites{
+        flex-direction: column;
+        width: 98%;
+    }
+    .boxactivite-A{
+        width: 100%;
+    }
+    .boxactivite-A figure{
+        height: 200px;
+    }
+    .boxactivite-A img{
+        height: 155px;
+    }
+    .boxactivite-B{
+        width: 100%;
+    }
 
     footer{
         flex-direction: column;
