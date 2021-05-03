@@ -341,11 +341,15 @@ footer{
     #menu{
         flex-direction: column-reverse;
         align-items: center;
-        margin-top: 10px;
+        margin-top: 5px;
     }
     nav a:hover{
         border-top: hidden;
         border-bottom: 2px solid blue;
+    }
+    .sinscrire{
+        margin-top:auto;
+        margin-left: 45%;
     }
     #sectionhebergement{
         flex-direction: column-reverse;
@@ -353,7 +357,7 @@ footer{
     #hotels{
         background-color: white;
     }
-   /************************/
+   
    #sectionactivites h2{
     margin-left: 30px;
 }
@@ -383,11 +387,14 @@ footer{
 .boxactivite-B img{
     height: 155px;
 }
+#activites figcaption{
+    font-size: 0.9em;
+}
 
 footer{
     flex-direction: column;
     padding-left: 30px;
-    font-size: 10px;
+    font-size: 0.9em;
 }
     
 
