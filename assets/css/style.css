@@ -353,29 +353,43 @@ footer{
     #hotels{
         background-color: white;
     }
-    #sectionactivites{
-        min-width: 481px;
-         max-width: 1024px;
-          flex-wrap: wrap;
-           justify-content: center;
+   /************************/
+   #sectionactivites h2{
+    margin-left: 30px;
+}
+#activites{
+    flex-direction: column;
+    width: 98%;
+    margin: auto;
+}
+.boxactivite-A{
+    width: 100%;
+}
+.boxactivite-A figure{
+    height: 200px;
+}
+.boxactivite-A img{
+    height: 155px;
+}
+.boxactivite-B{
+    width: 100%;
+}
+.activite1{
+    height: 200px;
+}
+.activite2{
+    height: 200px;
+}
+.boxactivite-B img{
+    height: 155px;
+}
 
-    }
-    #activites figcaption{
-        font-size: 10px;
-
-    }
-    .boxactivite-B{
-        width: 48%;
-        height: 75%;
-    }
-
-    .boxactivite-A{
-        width: 48%;
-        height: 75%;
-    }
-    footer{
-        font-size: 10px;
-    }
+footer{
+    flex-direction: column;
+    padding-left: 30px;
+    font-size: 10px;
+}
+    
 
 }
     
@@ -442,8 +456,8 @@ footer{
     }
     .boxcard figure img{
         height: 110px;
-    }  
-/************************/
+    } 
+    /************************/
     #sectionactivites h2{
         margin-left: 30px;
     }
@@ -463,11 +477,23 @@ footer{
     .boxactivite-B{
         width: 100%;
     }
+    .activite1{
+        height: 200px;
+    }
+    .activite2{
+        height: 200px;
+    }
+    .boxactivite-B img{
+        height: 155px;
+    }
 
     footer{
         flex-direction: column;
         padding-left: 30px;
+        font-size: 10px;
     }
-}
+}     
+
+
 
 
