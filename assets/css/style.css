@@ -357,6 +357,25 @@ footer{
     #hotels{
         background-color: white;
     }
+
+    .star {
+        margin: 0 0.75rem 0.25rem 0.75rem;
+    }
+    
+      .star_check {
+            color: #0065fc;
+                 }
+    
+      .star_uncheck{
+                color: #d9d9d9;
+                
+        }
+        aside{
+            width: 100%;
+            border-radius: 0px;
+            margin-left: 0px;
+        }
+      
    /************************/
    #sectionactivites h2{
     margin-left: 30px;
@@ -392,6 +411,7 @@ footer{
 }
 
 footer{
+    width: 100%;
     flex-direction: column;
     padding-left: 30px;
     font-size: 0.9em;
@@ -495,9 +515,10 @@ footer{
     }
 
     footer{
+        width: 100%;
         flex-direction: column;
         padding-left: 30px;
-        font-size: 10px;
+        font-size: 0.9em;
     }
 }     
 
