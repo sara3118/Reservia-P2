@@ -350,6 +350,7 @@ footer{
     .sinscrire{
         margin-top:auto;
         margin-left: 45%;
+        padding-left:auto;
     }
     #sectionhebergement{
         flex-direction: column-reverse;
@@ -454,6 +455,7 @@ footer{
         padding-right: 10px;
         font-size: 10px;
     }
+    
 
     aside{
         border-radius: 0px;
