@@ -435,10 +435,13 @@ footer{
         /*padding-top: 10px;*/
         padding-bottom: 10px;
     }
-    
+    h2{
+        font-size: 20px;
+    }
     #menu{
         flex-direction: column-reverse;
         align-items:center;
+        font-size: 15px;
     }
     nav a:hover{
         border-top: hidden;
@@ -448,7 +451,7 @@ footer{
     
        position:absolute;
        top: 27px;
-       right: 5%;
+       right: 9%;
     }
     #searchsection{
         margin-left: 15px;
@@ -464,7 +467,7 @@ footer{
     .filtre{
         margin: 5px 15px 5px 0px;
         padding-right: 10px;
-        font-size: 10px;
+        font-size: 12px;
         border: 1.8px solid #dddbdb;
     }
     #sectionhebergement{
@@ -480,6 +483,7 @@ footer{
     }
     #populaires{
         padding-left: 25px;
+        
     }
     #cardspop{
         margin: auto;
@@ -498,7 +502,7 @@ footer{
     .boxcard figure{
         width: 100%;
         height: 200px;
-        font-size: 10px;
+        font-size: 13px;
     }
     .boxcard figure img{
         height: 110px;
