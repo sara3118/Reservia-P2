@@ -376,6 +376,24 @@ footer{
             border-radius: 0px;
             margin-left: 0px;
         }
+        #cardspop{
+            width: 100%;
+            margin: auto;
+        }
+        #boxpop{
+            display:flex;
+            width: 100%;
+            height: 200px;
+            font-size: 13px;
+        }
+        .boxpop figure{
+            display:flex;
+            width: 100%;
+            font-size: 18px;
+        }
+        .boxpop img{
+            min-width: 40%;
+        }
       
    /************************/
    #sectionactivites h2{
@@ -413,8 +431,9 @@ footer{
 
 footer{
     width: 100%;
-    flex-direction: column;
-    padding-left: 30px;
+    flex-direction:row;
+    padding-left: 5px;
+    padding-right: 5px;
     font-size: 0.9em;
 }
     
