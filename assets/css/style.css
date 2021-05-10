@@ -374,7 +374,8 @@ footer{
         aside{
             width: 100%;
             border-radius: 0px;
-            margin-left: 0px;
+            margin: auto;
+            padding-right: 10px;
         }
         #cardspop{
             width: 100%;
